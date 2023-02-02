@@ -1,4 +1,4 @@
-![banner](https://github.com/z-bj/KONA-BIKES-Rental-shop/blob/master/Banner%20Markdown%20github.webp)
+![banner](https://github.com/z-bj/KONA-BIKES-Rental-shop/blob/master/KONA_BIKES_RENTAL_SHOP.jpg)
 
 
 ## Docs
