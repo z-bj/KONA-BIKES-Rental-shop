@@ -1,6 +1,29 @@
 ![banner](https://github.com/z-bj/KONA-BIKES-Rental-shop/blob/master/kona-bikes-rental-shop-banner.jpg)
 
 
+# Kona Bike Rental Shop
+
+This is a command-line interface for a bike rental shop built with Bash and PostgreSQL. The script provides two main functionalities: renting a bike and returning a rented bike.
+
+## How It Works
+
+When you run the script, you will be presented with a main menu where you can choose between renting a bike, returning a rented bike, or exiting the program. If you choose to rent a bike, the script will display all the available bikes and ask you to select one. You will then be prompted to provide your phone number and name. If you are a new customer, the script will add you to the customer database. If you are a returning customer, the script will retrieve your customer information from the database. Finally, the script will add a new rental to the rental database and mark the selected bike as unavailable.
+
+If you choose to return a rented bike, the script will prompt you for your phone number and display a list of all the bikes you currently have rented. You will then be asked to select the bike you want to return. The script will mark the rental as returned, mark the bike as available, and display a message with the bike type and size you returned.
+
+## Requirements
+
+-   Bash
+-   PostgreSQL
+-   The `psql` command-line interface
+
+## Usage
+
+1.  Clone the repository to your local machine
+2.  Run the `bikeshop.sh` script using Bash
+3.  Follow the prompts to rent or return a bike
+
+
 ## The script
 
 ``` bash
