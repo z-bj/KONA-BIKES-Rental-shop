@@ -195,3 +195,17 @@ MAIN_MENU
 ```
 
 ### [Postgre_dump](https://github.com/z-bj/KONA-BIKES-Rental-shop/blob/master/bikes.sql)
+
+### PostgreSQL Database Dump for "Bikes" Database
+
+This is a PostgreSQL database dump that includes both the schema and data for a database named "bikes".
+
+The dump begins with some SET commands that set various configuration options to their default values.
+
+Afterward, the dump includes the creation of the "bikes" database using the CREATE DATABASE command, with specified encoding and collation. The owner of the database is set to a user named "z-bj".
+
+The dump then creates three tables: "bikes", "customers", and "rentals". Each table has several columns, with the primary keys being "bike_id", "customer_id", and "rental_id", respectively.
+
+Additionally, the dump creates sequences for generating default values for each primary key column, and sets the default values for these columns to be generated from these sequences.
+
+Finally, the dump inserts data into the "bikes" table using several INSERT INTO statements.
