@@ -7,9 +7,23 @@ This is a command-line interface for a bike rental shop built with Bash and Post
 
 ## How It Works
 
-When you run the script, you will be presented with a main menu where you can choose between renting a bike, returning a rented bike, or exiting the program. If you choose to rent a bike, the script will display all the available bikes and ask you to select one. You will then be prompted to provide your phone number and name. If you are a new customer, the script will add you to the customer database. If you are a returning customer, the script will retrieve your customer information from the database. Finally, the script will add a new rental to the rental database and mark the selected bike as unavailable.
+1) When you run the script, you will be presented with a main menu where you can choose between renting a bike, returning a rented bike, or exiting the program.
 
-If you choose to return a rented bike, the script will prompt you for your phone number and display a list of all the bikes you currently have rented. You will then be asked to select the bike you want to return. The script will mark the rental as returned, mark the bike as available, and display a message with the bike type and size you returned.
+2) If you choose to rent a bike, the script will display all the available bikes and ask you to select one. 
+
+3) You will then be prompted to provide your phone number and name. 
+
+4) If you are a new customer, the script will add you to the customer database. 
+
+5) If you are a returning customer, the script will retrieve your customer information from the database. 
+
+6) Finally, the script will add a new rental to the rental database and mark the selected bike as unavailable.
+
+7) If you choose to return a rented bike, the script will prompt you for your phone number and display a list of all the bikes you currently have rented. 
+
+8) You will then be asked to select the bike you want to return. 
+
+9) The script will mark the rental as returned, mark the bike as available, and display a message with the bike type and size you returned.
 
 ## Requirements
 
